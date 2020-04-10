@@ -1,6 +1,7 @@
 var permissions = [
     "mason zhang",
     "steven tang",
+    "aris gonell",
 ]
 
 $(function() {
