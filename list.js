@@ -12,7 +12,7 @@ $(function() {
     }
     else if (yesOrNo == "no")
     {
-      var name = prompt("What's your name?", "");
+      var name = prompt("What's your name (full name with space in between)?", "");
       name = name.toLowerCase(); 
       if (permissions.includes(name))
       {
