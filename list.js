@@ -2,6 +2,7 @@ var permissions = [
     "mason zhang",
     "steven tang",
     "aris gonell",
+    "kim huynh",
 ]
 
 $(function() {
@@ -19,7 +20,10 @@ $(function() {
       {
         if (name == "steven tang")
         {
-          $("#result").append("<h1>Holy shit it's S-s-steven uwu. Of course you can judge!</h1>");
+          	$("#result").append("<h1>Holy shit it's S-s-steven uwu. Of course you can judge!</h1>");
+        }
+        else if (name == "kim huynh"){
+        	$("#result").append("<h1>Go away normie!</h1>");
         }
         else 
         {
