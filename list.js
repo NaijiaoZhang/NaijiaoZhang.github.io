@@ -26,7 +26,7 @@ $(function() {
         	var random = 10*Math.random(); 
         	if (random > 9.80)
         	{
-        		$("#result").append("<h1>Nkyvf+vkJExeHNa8H9RyhbzShMXgAQefyNU8Y+DR+3B8dnIY39BO9H2tZ7xqW6UkW+5SwAlycyaYHWgxjbgZe73YntQuauaDbgqMgfDxOa3jgQnMX+WLoSGRpi5OUANy</h1>");
+        		$("#result").append("<h1>81942e26fab9328474841e5afa412bc78ce70a597241cf74774e331d09785c4a</h1>");
         	}
         	else if (random > 7)
         	{
