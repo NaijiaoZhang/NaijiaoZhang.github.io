@@ -23,7 +23,23 @@ $(function() {
           	$("#result").append("<h1>Holy shit it's S-s-steven uwu. Of course you can judge!</h1>");
         }
         else if (name == "kim huynh"){
-        	$("#result").append("<h1>Go away normie!</h1>");
+        	var random = 10*Math.random(); 
+        	if (random > 9.80)
+        	{
+        		$("#result").append("<h1>Nkyvf+vkJExeHNa8H9RyhbzShMXgAQefyNU8Y+DR+3B8dnIY39BO9H2tZ7xqW6UkW+5SwAlycyaYHWgxjbgZe73YntQuauaDbgqMgfDxOa3jgQnMX+WLoSGRpi5OUANy</h1>");
+        	}
+        	else if (random > 7)
+        	{
+        		$("#result").append("<h1>Stop viewing this page, it's only for certain people. </h1>");
+        	}
+        	else if (random > 3)
+        	{
+        		$("#result").append("<h1>You're not allowed here.</h1>");
+        	}
+        	else
+        	{
+        		$("#result").append("<h1>Go away normie!</h1>");
+        	}
         }
         else 
         {
